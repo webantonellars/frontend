@@ -1,0 +1,38 @@
+.row{
+    background-color: #DE98D5;
+    padding: 25px;
+}
+
+#fotoparte1{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 10px 10px 30px #4e3d4c;
+    box-shadow: ejeX ejeY difumasion color;
+}
+
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+
+.parte2{
+    padding: 20px;
+}
+.parte1{
+    padding: 0px;
+}
+
+/**/
+
+
+@media(max-width: 575px){
+    #fotoparte1 {
+        width: 100%;
+    
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 600px;
+
+    }
+}
